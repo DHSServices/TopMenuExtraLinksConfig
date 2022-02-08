@@ -7,18 +7,17 @@
             <resource>DHSServices_TopMenuExtraLinksConfig::configurations</resource>
             <group id="navigation_settings" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Navigation Settings</label>
-                <field id="enablehome" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Add Home Link</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment>
-                        <![CDATA[Show Home Link in TopMenu.]]>
-                    </comment>
-                </field>
                 <field id="enableblog" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Add Blog Link</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <comment>
                         <![CDATA[Show Blog Link in TopMenu.]]>
+                    </comment>
+                </field>
+                <field id="blog_url" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Blog Link URL</label>
+                    <comment>
+                        <![CDATA[URL Blog Link in TopMenu.]]>
                     </comment>
                 </field>
                 <field id="enablecontact" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -28,11 +27,23 @@
                         <![CDATA[Show Contact Link in TopMenu.]]>
                     </comment>
                 </field>
+                <field id="contact_url" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Contact Link URL</label>
+                    <comment>
+                        <![CDATA[URL Contact Link in TopMenu.]]>
+                    </comment>
+                </field>
                 <field id="enableaboutus" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Add About Us Link</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <comment>
                         <![CDATA[Show About Us Link in TopMenu.]]>
+                    </comment>
+                </field>
+                <field id="aboutus_url" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>About Us Link URL</label>
+                    <comment>
+                        <![CDATA[URL About Us Link in TopMenu.]]>
                     </comment>
                 </field>
             </group>

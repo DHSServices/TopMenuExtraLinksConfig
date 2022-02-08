@@ -3,7 +3,6 @@
     <default>
         <topmenusettings>
             <navigation_settings>
-                <enablehome>1</enablehome>
                 <enableblog>0</enableblog>
                 <enablecontact>0</enablecontact>
                 <enableaboutus>0</enableaboutus>
